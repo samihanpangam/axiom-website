@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOMEPAGE</title>
+    <title>Legogoa Axiom</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@300&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
 
 
 </head>
@@ -22,28 +20,83 @@
         <a class="logo" href="/"><img class="logo_img" height="75px" src="imgs/logo.png" alt="logo"></a>
         <nav>
             <ul class="nav__links">
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">FTC</a></li>
+                <li><a onclick="window.location.href='/blogs'">Blogs</a></li>
+                <li><a href=" #">FTC</a></li>
                 <li><a href="#">Team</a></li>
             </ul>
         </nav>
-        <button class="cssbuttons-io-button"> Sponser us!
+        <a class="cta"> Sponser us!
             <div class="icon">
                 💸
-                </svg>
             </div>
-        </button>
+        </a>
 
-
+        <p style="padding: 3%;" class="menu"><span class=" material-symbols-outlined">menu</span></p>
     </header>
+
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="#">Sponsers</a>
+            <a href="#">FTC</a>
+            <a href="#">Team</a>
+        </div>
+    </div>
     </div>
 
-    <div id="video">
-        <video width=100% height=100% autoplay muted>
-            <source src="imgs/team.mp4" type="video/mp4">
+    <div width=100% id="video">
+        <video style="padding: 10px;
+                    border-radius: 35px;
+                    width: 85% ;
+                    overflow: hidden;" height=100% autoplay muted>
+            <source src="imgs/Team .mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
+
+    <h1>Blogs</h1>
+
+    <section class="hero-section">
+        <div class="card-grid">
+            <a class="card" href="/blog1">
+                <div class="card__background" style="background-image: url(imgs/blogs/blog1.jpg)">
+                </div>
+                <div class="card__content">
+                    <p class="card__category">4th December</p>
+                    <h3 class="card__heading">The First Meeting Session</h3>
+                </div>
+            </a>
+            <a class="card" href="/blog2">
+                <div class="card__background" style="background-image: url(imgs/blogs/blog2.jpg)">
+                </div>
+                <div class="card__content">
+                    <p class="card__category">9th December</p>
+                    <h3 class="card__heading">FUND-RAISING INITIATIVE: Conducting Robotics Workshops in Goa
+
+                    </h3>
+                </div>
+            </a>
+            <a class="card" href="/blog3">
+                <div class="card__background" style="background-image: url(imgs/blogs/blog3.jpg)">
+                </div>
+                <div class="card__content">
+                    <p class="card__category">17th December</p>
+                    <h3 class="card__heading">GitHub 1st training session</h3>
+                </div>
+                <a class="card" href="/blog4">
+                    <div class="card__background" style="background-image: url(imgs/blogs/blog4.jpg)">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__category">17th December</p>
+                        <h3 class="card__heading">Having Fun</h3>
+                    </div>
+                </a>
+                </li>
+                <div>
+    </section>
+    <script src="https://kit.fontawesome.com/3b366c8bb1.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="mobile.js"></script>
+
 
 </body>
 
