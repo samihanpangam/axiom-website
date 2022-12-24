@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 🛑 add your blogs title here -->
+    <title>{{  title }}</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="/"><img class="logo_img" height="75px" src="imgs/logo.png" alt="logo"></a>
+
+        <nav>
+            <ul class="nav__links">
+                <li><a onclick="window.location.href='/#:~:text=such%20young%20minds.-,Blogs,-4TH%20DECEMBER'">Blogs</a></li>
+                <li><a href=" #">FTC</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+        </nav>
+
+        <a class="cta"> Sponser us!
+            <div class="icon"> 💸 </div>
+        </a>
+
+        <p style="padding: 3%;" class="menu"><span class=" material-symbols-outlined">menu</span></p>
+    </header>
+
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="#">Sponsers</a>
+            <a href="#">FTC</a>
+            <a href="#">Team</a>
+        </div>
+    </div>
+    </div>
+
+    <div style="width: 100%;">
+
+        <div style="margin:auto;padding: 10px;  border-radius: 35px;   width: 85% ;   overflow: hidden;   background-color: #ffdd58;">
+
+        <!-- 🛑 add your date and title here -->
+        <h2>{{dates}}</h2>
+        <h1 style="font-size: 5rem;">{{title}}</h1>
+
+        </div>
+        <br>
+
+        <!-- 🛑 add images if there are any -->
+        <img style="border-radius: 35px; width: 85%;" src="imgs\blogs\format.jpeg" alt="" srcset="">
+
+        <br>
+        <br>
+        <div
+            style="margin:auto;padding:50px;   border-radius: 35px;  width: 85% ;  overflow: hidden;  background-color: #ffdd58;">
+
+        <!-- 🛑 add blogs content-->
+        <h2>{{contents}}</h2>
+
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/3b366c8bb1.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="mobile.js"></script>
+
+
+</body>
+
+</html>
