@@ -1,67 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legogoa Axiom</title>
-    <link rel="stylesheet" type="text/css" href="public/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Legogoa Axiom</title>
+        <link rel="stylesheet" type="text/css" href="public/style.css">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
-
-
-</head>
-
-<body>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200"
+            />
 
 
-    <header>
-        <a class="logo" href="/"><img class="logo_img" height="75px" src="imgs/logo.png" alt="logo"></a>
-        <nav>
-            <ul class="nav__links">
-                <li><a onclick="window.location.href='/blogs'">Blogs</a></li>
-                <li><a href=" #">FTC</a></li>
-                <li><a href="#">Team</a></li>
-            </ul>
-        </nav>
-        <a class="cta"> Sponser us!
-            <div class="icon">
-                💸
+    </head>
+
+    <body>
+
+
+        <header>
+            <a class="logo" href="/"><img class="logo_img" height="75px"
+                    src="imgs/logo.png" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a onclick="window.location.href='/blogs'">Blogs</a></li>
+                    <li><a href=" #">FTC</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </nav>
+            <a class="cta"> Sponser us!
+                <div class="icon">
+                    💸
+                </div>
+            </a>
+
+            <p style="padding: 3%;" class="menu"><span class="
+                    material-symbols-outlined">menu</span></p>
+        </header>
+
+        <div id="mobile__menu" class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Sponsers</a>
+                <a href="#">FTC</a>
+                <a href="#">Team</a>
             </div>
-        </a>
-
-        <p style="padding: 3%;" class="menu"><span class=" material-symbols-outlined">menu</span></p>
-    </header>
-
-    <div id="mobile__menu" class="overlay">
-        <a class="close">&times;</a>
-        <div class="overlay__content">
-            <a href="#">Sponsers</a>
-            <a href="#">FTC</a>
-            <a href="#">Team</a>
         </div>
-    </div>
     </div>
 
     <div width=100% id="video">
         <video style="padding: 10px;
-                    border-radius: 35px;
-                    width: 85% ;
-                    overflow: hidden;" height=100% autoplay muted>
+            border-radius: 35px;
+            width: 85% ;
+            overflow: hidden;" height=100% autoplay muted>
             <source src="imgs/Team .mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
+    <br>
+    <br>
+    <div style="margin:auto;padding:50px;
+        border-radius: 35px;
+        width: 85% ;
+        overflow: hidden;
+        background-color: #ffdd58;">
+        <h2 style="font-size: 2rem;">About us 👋🏽</h2>
+        <br>
 
-    <h1>Blogs</h1>
+        <h1 style="font-size: 3rem; animation: fadeIn 5s;@keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+            }
+            ">We are a small team of young minds with
+            lots of innovative ideas. 💡<br>
+            And as our name suggests - we're based out of Goa. 🏖️</h1>
+    </div>
+    <br>
+    <br>
+    <div style="margin:auto;padding:50px;
+        border-radius: 35px;
+        width: 85% ;
+        overflow: hidden;
+        background-color: #ffdd58;">
+        <h2 style="font-size: 2rem;">What our team has done 👨🏽‍🔬</h2>
+        <br>
+
+        <h1 style="font-size: 3rem; animation: fadeIn 5s;@keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+            }
+            ">We've entered and won competitions with
+            brilliant modules replicated in the form of Lego. Our innovations
+            not only won competitions, but also inspired other such young minds.
+        </h1>
+    </div>
+    <br>
+    <br>
+
+    <h1 style="font-size: 4rem;">Blogs</h1>
+
 
     <section class="hero-section">
+
+        <br>
         <div class="card-grid">
             <a class="card" href="/blog1">
-                <div class="card__background" style="background-image: url(imgs/blogs/blog1.jpg)">
+                <div class="card__background" style="background-image:
+                    url(imgs/blogs/blog1.jpg)">
                 </div>
                 <div class="card__content">
                     <p class="card__category">4th December</p>
@@ -69,37 +115,51 @@
                 </div>
             </a>
             <a class="card" href="/blog2">
-                <div class="card__background" style="background-image: url(imgs/blogs/blog2.jpg)">
+                <div class="card__background" style="background-image:
+                    url(imgs/blogs/blog2.jpg)">
                 </div>
                 <div class="card__content">
                     <p class="card__category">9th December</p>
-                    <h3 class="card__heading">FUND-RAISING INITIATIVE: Conducting Robotics Workshops in Goa
+                    <h3 class="card__heading">FUND-RAISING INITIATIVE:
+                        Conducting Robotics Workshops in Goa
 
                     </h3>
                 </div>
             </a>
             <a class="card" href="/blog3">
-                <div class="card__background" style="background-image: url(imgs/blogs/blog3.jpg)">
+                <div class="card__background" style="background-image:
+                    url(imgs/blogs/blog3.jpg)">
                 </div>
                 <div class="card__content">
                     <p class="card__category">17th December</p>
                     <h3 class="card__heading">GitHub 1st training session</h3>
                 </div>
                 <a class="card" href="/blog4">
-                    <div class="card__background" style="background-image: url(imgs/blogs/blog4.jpg)">
+                    <div class="card__background" style="background-image:
+                        url(imgs/blogs/blog4.jpg)">
                     </div>
                     <div class="card__content">
                         <p class="card__category">17th December</p>
                         <h3 class="card__heading">Having Fun</h3>
                     </div>
                 </a>
-                </li>
-                <div>
-    </section>
-    <script src="https://kit.fontawesome.com/3b366c8bb1.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="mobile.js"></script>
+                <a class="card" href="/blog4">
+                    <div class="card__background" style="background-image:
+                        url(imgs/blogs/blog4.jpg)">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__category">17th December</p>
+                        <h3 class="card__heading">Having Fun</h3>
+                    </div>
+                </a>
+            </li>
+            <div>
+            </section>
+            <script src="https://kit.fontawesome.com/3b366c8bb1.js"
+                crossorigin="anonymous"></script>
+            <script type="text/javascript" src="mobile.js"></script>
 
 
-</body>
+        </body>
 
-</html>
+    </html>
