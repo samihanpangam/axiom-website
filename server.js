@@ -24,6 +24,10 @@ app.get('/blog4', (req, res) => {
   res.sendFile(__dirname + '/blogs/blog4.html');
 });
 
+app.get('/format', (req, res) => {
+  res.sendFile(__dirname + '/blogs/format.html');
+});
+
 app.listen(process.env.PORT || 3000, () => {
   console.log('Server listening on port 3000');
 });
